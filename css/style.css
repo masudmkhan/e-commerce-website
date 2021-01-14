@@ -1,6 +1,10 @@
 body{
     font-family: 'Roboto Condensed', sans-serif;
 }
+.logo-img{
+    height: 100%;
+    width: 100%;
+}
 h1{
     font-size: 50px;
     font-weight: bolder;
@@ -37,8 +41,8 @@ p{
     margin-top: 120px;
     padding-left: 30px;
 }
-.section-1{
-    height: 600px;
+.upper-part{
+    height: 700px;
     background-color: rgb(204, 197, 191);
 }
 .shoe-img img{
@@ -63,7 +67,7 @@ p{
     float: left;
 }
 .section-shop{
-    height: 500px;
+    height: 600px;
 }
 .shop-img{
     margin-top: 60px;
@@ -75,4 +79,15 @@ p{
 .shoe-footer{
     background-color: white;
     border: none;
+}
+.loafer-img{
+    height: 200px;
+}
+.email-button{
+    background-color: pink;
+    color: white;
+}
+.final-part{
+    background-color: turquoise;
+    height: 250px;
 }
