@@ -1,0 +1,50 @@
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+h1{
+    font-size: 50px;
+    font-weight: bolder;
+}
+h2{
+    font-size: 40px;
+    font-weight: bold;
+}
+h3{
+    font-weight: bold;
+    font-size: 30px;
+}
+p{
+    font-size: 20px;
+}
+.name-highlight{
+    color:rgb(255, 109, 56);
+}
+.penguin-half-width{
+    width: 40%;
+    margin-top: 10px;
+    float: left;
+}
+.penguin-half-width img{
+    width: 100%;
+}
+.shoe-icon{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.shoe-name{
+    margin-left: 20px;
+  
+    margin-top: 120px;
+    padding-left: 30px;
+}
+.section-1{
+    height: 600px;
+    background-color: rgb(204, 197, 191);
+}
+.shoe-img img{
+    width: 250px;
+}
+.img-back-color{
+    background-color: lightgray;
+    border-radius: 5px;
+}
