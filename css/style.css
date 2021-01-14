@@ -49,7 +49,26 @@ p{
     border-radius: 5px;
     color: white;
 }
-.img-shopping img{
-  width: 100px;
-  height: 100px;
+.shopping-img img{
+    height: 100px;
+    width: 100px;
+}
+.shop-img img{
+    width: 600px;
+    height: 300px;
+}
+.shop-half-width{
+    width: 45%;
+    margin-top: 10px;
+    float: left;
+}
+.section-shop{
+    height: 500px;
+}
+.shop-img{
+    margin-top: 60px;
+    padding-left: 20px;
+}
+.shop-items{
+    padding-right: 20px;
 }
