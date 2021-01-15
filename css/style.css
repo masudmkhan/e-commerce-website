@@ -1,5 +1,6 @@
 body{
     font-family: 'Roboto Condensed', sans-serif;
+    
 }
 .logo-img{
     height: 100%;
@@ -23,26 +24,19 @@ p{
 .name-highlight{
     color:rgb(255, 109, 56);
 }
-.penguin-half-width{
-    width: 40%;
-    margin-top: 10px;
-    float: left;
-}
-.penguin-half-width img{
+.shoe-icon img{
     width: 100%;
 }
 .shoe-icon{
-    margin-left: 5%;
-    margin-right: 5%;
+    padding-left: 50px;
+    padding-right: 30px;
 }
 .shoe-name{
-    margin-left: 20px;
-  
-    margin-top: 120px;
-    padding-left: 30px;
+    padding-top: 100px;
+    padding-left: 50px;
 }
 .upper-part{
-    height: 800px;
+    height: 850px;
     background-color: rgb(204, 197, 191);
 }
 .shoe-img img{
@@ -54,8 +48,7 @@ p{
     color: white;
 }
 .shopping-img img{
-    height: 100px;
-    width: 100px;
+    width: 100%;
 }
 .shop-img img{
     width: 600px;
@@ -67,7 +60,8 @@ p{
     float: left;
 }
 .section-shop{
-    height: 600px;
+    height: 820px;
+    padding-top: 350px;
 }
 .shop-img{
     margin-top: 60px;
@@ -88,6 +82,26 @@ p{
     color: white;
 }
 .final-part{
-    background-color: turquoise;
-    height: 250px;
+    background-color: rgb(161, 252, 243);
+    height: 250px;   
+    margin-top: 100px;
+}
+.card-image{
+    text-align: center;
+    width: 300px;
+}
+.nav-part{
+    background-color:rgb(204, 197, 191) ;
+    height: 60px;
+    
+}
+.products{
+    padding-top: 40px;
+}
+.product-img img{
+    height: 130px;
+    width: 130px;
+}
+.section-loafer{
+    padding-bottom: 100px;
 }
