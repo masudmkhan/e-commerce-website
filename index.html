@@ -12,25 +12,25 @@
 </head>
 <body>
   <nav class="navbar navbar-expand-lg navbar-light sticky-top nav-part">
-    <div class="container-fluid logo-icon">
+    <div class="container-fluid">
       <img src="logo/Logo.png" class=" logo-img" alt="">
-    <div style="margin-left: auto;" class="nav-select">
+    <div style="margin-left: auto;">
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link active pe-5 link-name" aria-current="page" href="#home">Home</a>
+            <a class="nav-link active pe-5" aria-current="page" href="#home">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active pe-5 link-name" href="#product">Product</a>
+            <a class="nav-link active pe-5" href="#product">Product</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active pe-5 link-name" href="#about">About us</a>
+            <a class="nav-link active pe-5" href="#about">About us</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active pe-5 link-name" href="#contact">Contact us</a>
+            <a class="nav-link active pe-5" href="#contact">Contact us</a>
           </li>
         </ul>
       </div>
@@ -40,13 +40,13 @@
    <header id="home" class="upper-part pt-5">
        <section>
          <div class="row">
-           <div class="col-lg-6 col-md-12 shoe-icon">
+           <div id="logo" class="col-lg-6 col-md-8 col-sm-8 shoe-icon">
             <img src="images/logo-image.png" alt="">
            </div>
-           <div class="col-lg-6 col-md-12 shoe-name">
+           <div id="description" class="col-lg-6 col-md-12 col-sm-12 shoe-name">
             <h1> <span class="name-highlight"> NIKE REACT</span> <br>  INFINITY RUN 2</h1>
             <p>Comfortable for running, walking and official uses also.</p>
-            <a href="#" class="btn button">BUY NOW</a>
+            <a href="#" class="nike-button">BUY NOW</a>
            </div>
          </div>
        </section>
@@ -56,10 +56,10 @@
        <section class="mt-5">
            <h3>CASUAL SHOES</h3>
         <div class="row row-cols-1 row-cols-md-3 g-4 mt-5">
-            <div class="col shoe-img">
-              <div class="shadow card h-100 rounded">
+            <div class="col-lg-4 col-md-10 col-sm-12 shoe-img">
+              <div class="shadow card h-100 rounded border-0">
                 <div class="card-image">
-                  <img src="images/white-shoe.png" class="card-img-top img-back-color" alt="...">
+                  <img src="images/white-shoe.png" class="card-img-top" alt="...">
                 </div>
                 <div class="card-body">
                   <h4 class="card-title">Nike Shoe</h4>
@@ -67,14 +67,14 @@
                 </div>
                 <div class="card-footer d-flex justify-content-between align-items-center shoe-footer">
                     <h4 class="name-highlight">$230</h4>
-                    <div class="btn button">BUY NOW>></div>
+                    <a href="#" class="button">BUY NOW>></a>
                 </div>
               </div>
             </div>
-            <div class="col shoe-img">
-              <div class="shadow card h-100 rounded">
+            <div class="col-lg-4 col-md-10 col-sm-12 shoe-img">
+              <div class="shadow card h-100 rounded border-0">
                 <div class="card-image">
-                  <img src="images/purple-shoe.png" class="card-img-top img-back-color" alt="...">
+                  <img src="images/purple-shoe.png" class="card-img-top" alt="...">
                 </div>
                 <div class="card-body">
                   <h4 class="card-title">Sneakers Skate Shoe</h4>
@@ -82,14 +82,14 @@
                 </div>
                 <div class="card-footer d-flex justify-content-between align-items-center shoe-footer">
                     <h4 class="name-highlight">$165</h4>
-                    <div class="btn button">BUY NOW>></div>
+                    <a href="#" class="button">BUY NOW>></a>
                 </div>
               </div>
             </div>
-            <div class="col shoe-img">
-              <div class="shadow card h-100 rounded">
+            <div class="col-lg-4 col-md-10 col-sm-12 shoe-img">
+              <div class="shadow card h-100 rounded border-0">
                 <div class="card-image">
-                  <img src="images/blackblue-shoe.png" class="card-img-top img-back-color" alt="...">
+                  <img src="images/blackblue-shoe.png" class="card-img-top" alt="...">
                 </div>
                 <div class="card-body">
                   <h4 class="card-title">Sneakers Basketball Shoe</h4>
@@ -97,7 +97,7 @@
                 </div>
                 <div class="card-footer d-flex justify-content-between align-items-center shoe-footer">
                     <h4 class="name-highlight">$180</h4>
-                  <div class="btn button">BUY NOW>></div>
+                    <a href="#" class="button">BUY NOW>></a>
                 </div>
               </div>
             </div>
@@ -106,10 +106,10 @@
      <section class="mt-5">
         <h3>FORMAL SHOES</h3>
      <div class="row row-cols-1 row-cols-md-3 g-4 mt-5">
-         <div class="col shoe-img">
-           <div class="shadow card h-100 rounded">
+         <div class="col-lg-4 col-md-10 col-sm-12 shoe-img">
+           <div class="shadow card h-100 rounded border-0">
              <div class="card-image">
-              <img src="images/high-shoe.png" class="card-img-top img-back-color" alt="...">
+              <img src="images/high-shoe.png" class="card-img-top" alt="...">
              </div>
              <div class="card-body">
                <h4 class="card-title">Prestige High-Cut Leather</h4>
@@ -117,14 +117,14 @@
              </div>
              <div class="card-footer d-flex justify-content-between align-items-center shoe-footer">
                  <h4 class="name-highlight">$245</h4>
-                 <div class="btn button">BUY NOW>></div>
+                 <a href="#" class="button">BUY NOW>></a>
              </div>
            </div>
          </div>
-         <div class="col shoe-img">
-           <div class="shadow card h-100 rounded">
+         <div class="col-lg-4 col-md-10 col-sm-12 shoe-img">
+           <div class="shadow card h-100 rounded border-0">
              <div class="card-image">
-              <img src="images/sharp-shoe.png" class="card-img-top img-back-color" alt="...">
+              <img src="images/sharp-shoe.png" class="card-img-top" alt="...">
              </div>
              <div class="card-body">
                <h4 class="card-title">Slip-On Formal Shoe</h4>
@@ -132,14 +132,14 @@
              </div>
              <div class="card-footer d-flex justify-content-between align-items-center shoe-footer">
                  <h4 class="name-highlight">$205</h4>
-                 <div class="btn button">BUY NOW>></div>
+                 <a href="#" class="button">BUY NOW>></a>
              </div>
            </div>
          </div>
-         <div class="col shoe-img">
-           <div class="shadow card h-100 rounded">
+         <div class="col-lg-4 col-md-10 col-sm-12 shoe-img">
+           <div class="shadow card h-100 rounded border-0">
              <div class="card-image">
-              <img src="images/rectangle-shoe.png" class="card-img-top img-back-color" alt="...">
+              <img src="images/rectangle-shoe.png" class="card-img-top" alt="...">
              </div>
              <div class="card-body">
                <h4 class="card-title">Slip-on Formal Shoe</h4>
@@ -147,7 +147,7 @@
              </div>
              <div class="card-footer d-flex justify-content-between align-items-center shoe-footer">
                  <h4 class="name-highlight">$220</h4>
-               <div class="btn button">BUY NOW>></div>
+                 <a href="#" class="button">BUY NOW>></a>
              </div>
            </div>
          </div>
@@ -156,10 +156,10 @@
      <section class="mt-5 section-loafer">
         <h3>LOAFER SHOES</h3>
      <div class="row row-cols-1 row-cols-md-3 g-4 mt-5">
-         <div class="col shoe-img">
-           <div class="shadow card rounded">
+         <div class="col-lg-4 col-md-10 col-sm-12 shoe-img">
+           <div class="shadow card rounded h-100 border-0">
              <div class="card-image">
-              <img src="images/loafer-black.png" class="card-img-top img-back-color loafer-img" alt="...">
+              <img src="images/loafer-black.png" class="card-img-top loafer-img" alt="...">
              </div>
              <div class="card-body">
                <h4 class="card-title">Comfortable Loafer for Men</h4>
@@ -167,14 +167,14 @@
              </div>
              <div class="card-footer d-flex justify-content-between align-items-center shoe-footer">
                  <h4 class="name-highlight">$180</h4>
-                 <div class="btn button">BUY NOW>></div>
+                 <a href="#" class="button">BUY NOW>></a>
              </div>
            </div>
          </div>
-         <div class="col shoe-img ">
-           <div class="shadow card rounded">
+         <div class="col-lg-4 col-md-10 col-sm-12 shoe-img">
+           <div class="shadow card rounded h-100 border-0">
              <div class="card-image">
-              <img src="images/loafer-white.png" class="card-img-top img-back-color loafer-img" alt="...">
+              <img src="images/loafer-white.png" class="card-img-top loafer-img" alt="...">
              </div>
              <div class="card-body">
                <h4 class="card-title">Loafer for both Men and Women</h4>
@@ -182,14 +182,14 @@
              </div>
              <div class="card-footer d-flex justify-content-between align-items-center shoe-footer">
                  <h4 class="name-highlight">$165</h4>
-                 <div class="btn button">BUY NOW>></div>
+                 <a href="#" class="button">BUY NOW>></a>
              </div>
            </div>
          </div>
-         <div class="col shoe-img">
-           <div class="shadow card rounded">
+         <div class="col-lg-4 col-md-10 col-sm-12 shoe-img">
+           <div class="shadow card rounded h-100 border-0">
              <div class="card-image">
-              <img src="images/loafer-women.png" class="card-img-top img-back-color loafer-img" alt="...">
+              <img src="images/loafer-women.png" class="card-img-top loafer-img" alt="...">
              </div>
              <div class="card-body">
                <h4 class="card-title">Comfortable Loafer for Women</h4>
@@ -197,16 +197,16 @@
              </div>
              <div class="card-footer d-flex justify-content-between align-items-center shoe-footer">
                  <h4 class="name-highlight">$195</h4>
-               <div class="btn button">BUY NOW>></div>
+                 <a href="#" class="button">BUY NOW>></a>
              </div>
            </div>
          </div>
       </div>
      </section>
-     <section id="about" class="section-shop mt-3 border-0 products">
+     <section id="about" class="mt-3 border-0 products">
       <div class="row border-0">
-        <div class="col-lg-5 col-md-12 border-0"> 
-            <div class="row shadow rounded mb-5">
+        <div id="shopping" class="col-lg-5 col-md-12 border-0"> 
+            <div class="row shadow rounded mb-5 border-0">
                 <div class="col-4 product-img">
                     <img src="logo/logo-bag.png" alt="">
                 </div>
@@ -215,7 +215,7 @@
                     <p>Everybody is different, which is why we offer styles for every body.</p>
                 </div>
             </div>
-            <div class="row shadow rounded mb-5">
+            <div class="row shadow rounded mb-5 border-0">
                 <div class="col-4 product-img">
                     <img src="logo/logo-box.png" alt="">
                 </div>
@@ -224,7 +224,7 @@
                     <p>One of the many reasons you can shop with peace of mind.</p>
                 </div>
             </div>
-            <div class="row shadow rounded mb-5">
+            <div class="row shadow rounded mb-5 border-0">
                 <div class="col-4 product-img">
                     <img src="logo/logo-headphone.png" alt="">
                 </div>
@@ -234,28 +234,27 @@
                 </div>
             </div>
         </div>
-        <div class="col-lg-7 col-md-12 border-0 shopping-img">
+        <div id="shop" class="col-lg-7 col-md-12 border-0 shopping-img pb-5">
             <img src="logo/shopping-cart.png" alt="">
         </div>
     </div>
      </section>  
-     <section id="contact" class="mt-5 final-part products">
+     <section id="contact" class="mt-5 final-part products d-flex justify-content-center align-items-center">
        <div class="row">
-         <div class="col-12">
-          <div style="text-align: center;">
-            <h1 class="name-highlight">STAY TUNED FOR UPDATES</h1>
-            <h4>Get Updates on Sales, Offers and many more</h4>
+         <div class="col-12 ">
+          <div>
+            <h3 style="text-align: center;" class="name-highlight">STAY TUNED FOR UPDATES</h3>
+            <h4 style="text-align: center;">Get Updates on Sales, Offers and many more</h4>
             <input type="email" placeholder="Enter Your E-mail Address">
-            <button class="btn email-button">SUBMIT</button>
+            <a href="#" class="button">SUBMIT</a>
           </div>
          </div>
-       </div>
+        </div>
      </section>
    </main>
-   <footer class="mt-5">
-     <p style="text-align: center;">Penguin Fashion 2025,All rights Reserved</p>
+   <footer class="mt-5 pt-5">
+     <p style="text-align: center; font-size: 18px;">©Penguin Fashion 2025,All rights Reserved</p>
    </footer>
     <script src="js/bootstrap.min.js"></script>
 </body>
-
 </html>
